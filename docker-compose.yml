@@ -20,6 +20,7 @@ db:
 # Backup:
 # docker exec CONTAINER /usr/bin/mysqldump -u root --password=root DATABASE > backup.sql
 
+#TAREFA 2
 # docker exec sis-bd2_db_1 /usr/bin/mysqldump -u root --password=123456 db_app_db2 > scripts/dump.sql
 
 # Restaurar
